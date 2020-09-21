@@ -1,13 +1,11 @@
-#include<iostream> 
-int addTwoNumber(int A, int B) 
-{
-	return A + B;
-} 
- 
+#include<iostream>
+using namespace std;
 int main()
-{ 
-	int A = 2, B = 3;
-	std::cout << "sum = " << addTwoNumber(A, B); 
-	return 0; 
-} 
-
+{
+	int a,b,c;
+	cout<<"Enter two numbers";
+	cin>>a>>b;
+	c=a+b;
+	cout<<"Sum is"<<c<<endl;
+	return 0;
+}
