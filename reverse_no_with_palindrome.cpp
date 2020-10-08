@@ -12,5 +12,13 @@ int main()
 		rev=rev*10+r;
 	}
 	cout<<"The reverse of the number is:"<<rev<<endl;
+	if (rev==n)
+	{
+		cout<<"The number is palindrome"<<endl;
+	}
+	else
+	{
+		cout<<"The number is not palindrome"<<endl;
+	}
 	return 0;
 }
